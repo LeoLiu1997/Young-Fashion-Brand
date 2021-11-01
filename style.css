@@ -1,0 +1,85 @@
+h1 {
+  font-family: 'Bungee', sans-serif;
+  color: cadetblue;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: 'Bungee', sans-serif;
+  font-weight: bold;
+  color: yellow;
+  font-size: 40px;
+}
+* {box-sizing:border-box;}
+body { 
+  margin: 0;
+  position: relative;
+  }
+img { width: 100%;}
+main {
+  display: flex;
+  height: 100vh;
+}
+
+.jordan .two-col {
+  display: flex;
+  width: 60%;
+}
+.jordan .two-col .left {flex: 45%;}
+.jordan .two-col .right {flex: 55%;}
+
+.supreme .two-col {
+  display: flex;
+  width: 60%;
+}
+.supreme .two-col .left {flex: 45%;}
+.supreme .two-col .right {flex: 55%;}
+
+.p {
+  font-family: "Times New Roman", Times, serif;
+}
+.right {background-color: pink}
+.jordan > .left {
+  background-color: white;
+  height: 100vh;
+}
+
+.supreme > .left {
+  background-color: white;
+  height: 100vh;
+}
+
+.left, .right { flex: 1;}
+
+.right { padding-left: 60px;}
+
+.left {
+  text-align: right;
+}
+
+.home-page{
+  position: absolute;
+  left: -110px;
+  top: -420px;
+  z-index: 1;
+}
+.home-button{
+  margin: 20px;
+  width: 60%
+}
+.jordan .left img {width:auto; height: 100%; padding: 80px 80px 80px;}
+.supreme .left img {width:auto; height: 100%; padding: 80px 80px 80px;}
+.kith .left img {width:auto; height: 100%; padding: 80px 80px 80px;}
+.yeezy .left img {width:auto; height: 100%; padding: 80px 80px 80px;}
+.corner {
+  position: absolute;
+  bottom:0;
+  right:0;
+  width: 120px;
+}
+
+.p {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 100px;
+  font-size: 15px
+}
